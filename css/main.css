@@ -1,0 +1,40 @@
+
+.tools {
+  margin-bottom:10px;
+}
+.tools a {
+  border:1px solid black;
+  color:black;
+  display:inline-block;
+  font-weight:bold;
+  height:30px;
+  line-height:30px;
+  padding:0 10px;
+  text-align:center;
+  text-decoration:none;
+  vertical-align:middle;
+  margin-left: 10px;
+}
+
+
+
+#colors_sketch {
+
+
+
+	border:1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+#clear {
+
+
+	top: 100px;
+
+
+}
+
+
