@@ -6,7 +6,7 @@
 
 <script src="js/jquery-1.7.min.js"></script>
 <script src="js/sketch.js"></script>
-<link rel="stylesheet" href="css/main.css" type="text/css" />
+<link rel="stylesheet" href="stylesheets/main.css" type="text/css" />
 
 
 </script>

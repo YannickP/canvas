@@ -85,10 +85,12 @@ or die(mysql_error());
 
 
 
- 
+ <div id="Registered"
  <h1>Registered</h1>
 
  <p>Thank you, you have registered - you may now login</a>.</p>
+</div>
+
 
  <?php 
  } 
