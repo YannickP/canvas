@@ -9,23 +9,6 @@
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 
 
-
-<script type="text/javascript">
-
-
-function uploadImage() {
- var canvas = document.getElementById("colors_sketch");
- var context = canvas.getContext("2d");
-
- var imageObj = new Image();
- imageObj.src = "http://www.kodyaz.com/images/windows-8-screenshots/consumer-beta-windows-8-start-screen.png";
-
- imageObj.onload = function () {
-  context.drawImage(imageObj, 0, 0);
- };
-}
-
-
 </script>
 
 
@@ -58,7 +41,6 @@ function uploadImage() {
 <a href="#colors_sketch" data-size="10" style="background-color: rgb(204, 204, 204); background-position: initial initial; background-repeat: initial initial; ">10</a>
 <a href="#colors_sketch" data-size="15" style="background-color: rgb(204, 204, 204); background-position: initial initial; background-repeat: initial initial; ">15</a>
 
-<button onclick="uploadImage();return false;">Canvas Load Image</button>
 
 </div>
 
