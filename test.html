@@ -1,0 +1,28 @@
+<html> 
+<head>
+  <script type="application/javascript">
+function init() {
+var canvas = document.getElementById("canvas");
+if (canvas.getContext)
+{
+var ctx = canvas.getContext("2d");
+
+// Create a new image object.
+var flower = new Image();
+
+//Provide the source directory of the image you are about to upload. 
+flower.src = "flower.png";
+
+// Make sure the image is loaded before you draw it on the canvas. 
+flower.onload = function() { 
+// Draw the image at location (0,0) on the canvas.
+ctx.drawImage(flower, 10, 10);
+}
+}
+}
+  </script>
+</head>
+<body onload="init();">
+<canvas id="canvas" width="900" height="500"></canvas><br>
+</body>
+</html>
