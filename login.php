@@ -317,7 +317,7 @@ mysql_select_db("test") or die(mysql_error());
            <div class="twelve columns">
             
 
-           <p>Troll@troll.dk - Ring til degns mor 88888888 - Din mor</p>
+           <p>Contact us at kfloATitu.dk and ypoiATitu.dk</p>
 
            </div>
 

@@ -29,7 +29,7 @@
 
  		if ($pass != $info['password']) 
 
- 			{ 			header("Location: login.php"); 
+ 			{ 			header("Location: index.php"); 
 
  			} 
 
@@ -61,7 +61,7 @@
 
  {			 
 
- header("Location: login.php"); 
+ header("Location: index.php"); 
 
  } 
 
