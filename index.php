@@ -226,7 +226,7 @@ mysql_select_db("test") or die(mysql_error());
  <input type="submit" name="submit" value="Login"> 
 
  
- <a href="registration.php">Registration</a>
+ <a href="registration.php" data-reveal-id="myModal">Registration</a>
 
  </table> 
  </form> 
@@ -378,5 +378,6 @@ mysql_select_db("test") or die(mysql_error());
   
   <!-- Initialize JS Plugins -->
   <script src="javascripts/app.js"></script>
+
 </body>
 </html>
