@@ -1,82 +1,11 @@
-<!DOCTYPE html>
-
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-
-
-
-<head>
-  <meta charset="utf-8" />
-
-  <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width" />
-
-  <title>Canvas</title>
-  
-  <!-- Included CSS Files (Uncompressed) -->
-  <!--
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  -->
-  
-  <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
-
-  <script src="javascripts/modernizr.foundation.js"></script>
-  <script src="javascripts/jquery.foundation.orbit.js"></script>
- 
-  <!-- IE Fix for HTML5 Tags -->
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-
-  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
-
-
-
-
-</head>
-
-
-
-
-<body>
-
-
-<div id="topbar">
-
-</div>
- 
-
-
-<div class="row">
-
-    <!-- <div id="header"> -->
-               
-          <div class="eight columns">
-            
-            <div id="logo"> 
-              <h2>Canvas</h2>
-            </div>
-                
-          </div>
-          
-         
-
-         <div class="four columns">
-
-
-    <?php 
+<?php 
 
  // Connects to your Database 
 
-mysql_connect("localhost", "test", "123456") or die(mysql_error()); 
-mysql_select_db("test") or die(mysql_error());  
+ mysql_connect("localhost", "openlink_canvas", "Erdugrim?1") or die(mysql_error());  
+
+ mysql_select_db("openlink_canvas") or die(mysql_error());   
+
 
 
  //Checks if there is a login cookie
@@ -208,6 +137,85 @@ mysql_select_db("test") or die(mysql_error());
 {  
  // if they are not logged in 
  ?> 
+
+
+
+
+
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+
+
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Canvas</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+ 
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+
+
+
+
+</head>
+
+
+
+
+<body>
+
+
+<div id="topbar">
+
+</div>
+ 
+
+
+<div class="row">
+
+    <!-- <div id="header"> -->
+               
+          <div class="eight columns">
+            
+            <div id="logo"> 
+              <h2>Canvas</h2>
+            </div>
+                
+          </div>
+          
+         
+
+         <div class="four columns">
+
+
+    
 
 <div id="login">
 

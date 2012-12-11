@@ -1,9 +1,12 @@
  <?php 
  // Connects to your Database 
 
- mysql_connect("localhost", "test", "123456") or die(mysql_error()); 
+ mysql_connect("localhost", "openlink_canvas", "Erdugrim?1") or die(mysql_error());  
 
- mysql_select_db("test") or die(mysql_error()); 
+  
+
+ mysql_select_db("openlink_canvas") or die(mysql_error());   
+
 
 
  //This code runs if the form has been submitted

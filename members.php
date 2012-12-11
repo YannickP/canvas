@@ -2,9 +2,9 @@
 
  // Connects to your Database 
 
- mysql_connect("localhost", "test", "123456") or die(mysql_error()); 
+ mysql_connect("localhost", "openlink_canvas", "Erdugrim?1") or die(mysql_error());  
 
- mysql_select_db("test") or die(mysql_error()); 
+ mysql_select_db("openlink_canvas") or die(mysql_error());   
 
 
  //checks cookies to make sure they are logged in 
